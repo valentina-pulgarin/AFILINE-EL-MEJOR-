@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./Bienvenido.css";
 import logoAfiline from "./LogoAfiline.png";
 
@@ -19,7 +20,9 @@ export const Bienvenido = () => {
                   type="btn"
                   className="btn btn-lg active btn-block mt-5 rounded-pill text-white"
                 >
+                    <Link className="text-white"to="/pag_principal">
                     Iniciar
+                    </Link>
                 </button>
               </div>
             </div>
