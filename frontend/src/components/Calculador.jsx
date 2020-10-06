@@ -8,12 +8,20 @@ export const Calculador = () => {
             <div className="container">
                 <h1 className="text-center mt-5 ">Calculador</h1>
                 <div className="button_1 ml-4 mr-4">
-                    <button type="button" className="btn  btn-lg btn-block text-left" Style="color: #4c9954; background-color: #8bed96;">Ingresos<div className="ingresos-button">
+                    <button type="button" className="btn  btn-lg btn-block text-left" Style="color: #4c9954; background-color: #8bed96;">Ingresos<span className="ingresos"><button
+          type="button"
+          className="btn btn-outline-dark font-weight-bolder " Style="background-color: #8bed96; border: none; color:  #4c9954; padding-right: 18px;">
+            +
+        </button></span><div className="ingresos-button">
                      
                     </div></button>
                 </div>
                 <div className="button_2 ml-4 mr-4 mt-5">
-                    <button type="button" className="btn  btn-lg btn-block text-left" Style="color: #4c9954; background-color: #8bed96;">Egresos <div className="ingresos-button">
+                    <button type="button" className="btn  btn-lg btn-block text-left" Style="color: #4c9954; background-color: #8bed96;">Egresos <span className="egresos" Style="padding-left: 147px;"><button
+          type="button"
+          className="btn btn-outline-dark font-weight-bolder " Style="background-color: #8bed96; border: none; color:  #4c9954; padding-right: 18px;">
+            +
+        </button></span><div className="ingresos-button">
                         
                     </div>
                     </button>
