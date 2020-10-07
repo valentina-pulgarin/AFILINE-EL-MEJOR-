@@ -6,9 +6,10 @@
     margin-bottom: none;
 }
 .container .position_b {
-    margin-top: 15rem;
+    margin-top: 12.5rem;
     margin-left: 12rem;
 }
-.pantalla_bienvenido .img-logo {
-    margin-top: 110px;
+
+.h1-bienvenido{
+    font-family: 'Open Sans', sans-serif;
 }

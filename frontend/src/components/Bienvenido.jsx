@@ -7,10 +7,10 @@ export const Bienvenido = () => {
     return (
         <div className="pantalla_bienvenido">
             <div className="parrafo mt-5">
-                <h1 >BIENVENIDO <br />A</h1>
+                <h1 className="h1-bienvenido" >BIENVENIDO <br />A</h1>
             </div>
             <div className="img_logo">
-                <div className="col-md-6 mt-5 mx-auto d-flex justify-content-center " >
+                <div className="col-md-6 mx-auto d-flex justify-content-center " Style="margin-top: 5rem;" >
                     <img src={logoAfiline} alt="" srcSet="" Style="width: 300px " />
                 </div>
             </div>
@@ -21,7 +21,7 @@ export const Bienvenido = () => {
                   className="btn btn-lg active btn-block mt-5 rounded-pill text-white"
                 >
                     <Link className="text-white"to="/pag_principal">
-                    Iniciar
+                    Seguir
                     </Link>
                 </button>
               </div>

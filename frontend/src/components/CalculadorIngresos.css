@@ -1,8 +1,10 @@
 .container .position_c .position_ingresos{
-    margin-top: 5rem;
-    margin-left: 1.5rem;
+    position:absolute;
+    bottom: -1.4rem;
+    margin-left: 2.5rem;
 }
 
 .container .btn_maluco{
-    margin-top: 6rem;
+    position: absolute;
+    bottom: 2rem;
 }

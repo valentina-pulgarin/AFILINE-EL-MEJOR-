@@ -3,5 +3,6 @@
 }
 
 .container .btn_malucoo{
-    margin-top: 6rem;
+    position:absolute;
+    bottom: 2.1rem;
 }
