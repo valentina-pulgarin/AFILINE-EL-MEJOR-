@@ -10,6 +10,7 @@ import CalculadorIngresos from '../components/CalculadorIngresos';
 import Ayuda from '../components/Ayuda';
 import Consejos from '../components/Consejos';
 import PagPrincipal from '../components/PagPrincipal';
+import Estadisticas from '../components/Estadisticas';
 
 function Aplicacion(){
     return(
@@ -25,6 +26,7 @@ function Aplicacion(){
           <Route exact path="/ayuda" component={Ayuda}/>
           <Route exact path="/consejos" component={Consejos}/>
           <Route exact path="/pag_principal" component={PagPrincipal}/>
+          <Route exact path="/estadisticas" component={Estadisticas}/>
         </Switch>
         </BrowserRouter>
     )

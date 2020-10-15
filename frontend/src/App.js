@@ -21,7 +21,7 @@ function App() {
                 className="btn btn-lg btn-block rounded-pill mt-5"
               >
                 <Link to="/inicio" className="text-white">
-                Iniciar sesión
+                Iniciar sesión               
                 </Link>
            
           

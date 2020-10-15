@@ -69,8 +69,18 @@ export const CalculadorIngresos = () => {
               <div className="btn_malucoo">
               <button
           type="button"
-          className="btn btn-outline-dark rounded-circle font-weight-bolder" Style ="margin-top:0rem; background-color: transparent;">
+          className="btn btn-outline-dark rounded-circle font-weight-bolder mr-1" Style ="margin-top:0rem; background-color: transparent;">
             +
+        </button>
+        <button
+          type="button"
+          className="btn btn-outline-dark rounded-circle font-weight-bolder mr-1 " Style ="margin-top:0rem; background-color: transparent; padding-right: 15px; padding-left: 15px;">
+            -
+        </button>
+        <button
+          type="button"
+          className="btn-slash btn btn-outline-dark rounded-circle font-weight-bolder" Style ="margin-top:0rem; background-color: transparent;">
+            /
         </button>
               </div>
               <div className="container" >

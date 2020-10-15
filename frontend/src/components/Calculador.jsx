@@ -37,7 +37,6 @@ export const Calculador = () => {
             type="btn"
             className="btn btn-lg active btn-block rounded-pill text-white"
           >
-
             Calcular
 
           </button>

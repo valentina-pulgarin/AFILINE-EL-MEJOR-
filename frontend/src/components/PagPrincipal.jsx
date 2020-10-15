@@ -39,7 +39,9 @@ export const PagPrincipal = () => {
                     className="btn btn-lg active btn-block mt-5 rounded-pill text-white"
                 >
                     <img src={estadisticas} alt="" srcSet="" Style="width: 60px; margin-right: 20%" />
-                    Estadísticas
+                    <Link to="/estadisticas" className="text-white">
+                         Estadísticas
+                    </Link>
             
             </button>
                 </div>
