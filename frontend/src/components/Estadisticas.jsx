@@ -1,7 +1,7 @@
 import React from "react";
 import "./Estadísticas.css";
 import Navbar from "./Navbar";
-
+import {Link} from "react-router-dom";
 export const Estadisticas = () => {
   return (
     <React.Fragment>
@@ -19,7 +19,9 @@ export const Estadisticas = () => {
             type="btn"
             className="btn-est btn btn-lg active btn-block rounded-pill text-white"
           >
-            Calcular
+              <Link to="/pag_principal" className="text-white">
+              Pantalla principal
+              </Link>
           </button>
         </div>
       </div>

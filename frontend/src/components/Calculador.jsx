@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom';
 
 export const Calculador = () => {
     return (
-        <div className="calculador">
+        <div className="calculador1">
             <div className="container">
                 <h1 className="text-center mt-5 ">Calculador</h1>
                 <div className="button_1 ml-4 mr-4">
@@ -37,7 +37,9 @@ export const Calculador = () => {
             type="btn"
             className="btn btn-lg active btn-block rounded-pill text-white"
           >
+            <Link to="/calculador1" className="text-white">
             Calcular
+            </Link>
 
           </button>
           </div>

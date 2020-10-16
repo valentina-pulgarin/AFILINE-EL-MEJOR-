@@ -11,7 +11,7 @@ import Ayuda from '../components/Ayuda';
 import Consejos from '../components/Consejos';
 import PagPrincipal from '../components/PagPrincipal';
 import Estadisticas from '../components/Estadisticas';
-
+import Calculador1 from '../components/Calculador1';
 function Aplicacion(){
     return(
         <BrowserRouter>
@@ -27,6 +27,7 @@ function Aplicacion(){
           <Route exact path="/consejos" component={Consejos}/>
           <Route exact path="/pag_principal" component={PagPrincipal}/>
           <Route exact path="/estadisticas" component={Estadisticas}/>
+          <Route exact path="/calculador1" component={Calculador1}/>
         </Switch>
         </BrowserRouter>
     )
